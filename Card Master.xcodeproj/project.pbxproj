@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51A000284C9010105F692086 /* Pods_Card_Master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB12D2DDBC10EE8A0DA6527D /* Pods_Card_Master.framework */; };
+		E9031F8D24A08247009713CE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9031F8C24A08247009713CE /* AboutViewController.swift */; };
+		E9031F8F24A139CE009713CE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9031F8E24A139CD009713CE /* StoreKit.framework */; };
+		E911884D2492724E0040C58B /* PlayerInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911884C2492724E0040C58B /* PlayerInputView.swift */; };
+		E91188532492E8680040C58B /* CardHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91188522492E8680040C58B /* CardHelpView.swift */; };
+		E9425D7724A3112900C7BAAF /* trivia.csv in Resources */ = {isa = PBXBuildFile; fileRef = E9425D7624A3112900C7BAAF /* trivia.csv */; };
+		E9425D7924A3836500C7BAAF /* categoriesMusic.csv in Resources */ = {isa = PBXBuildFile; fileRef = E9425D7824A3836400C7BAAF /* categoriesMusic.csv */; };
+		E9425D7B24A4EF8000C7BAAF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9425D7A24A4EF8000C7BAAF /* StringExtension.swift */; };
+		E95205A1248704C600CC8CBD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95205A0248704C600CC8CBD /* CardView.swift */; };
+		E95205AA248AB54100CC8CBD /* CardCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95205A9248AB54100CC8CBD /* CardCreator.swift */; };
+		E95205AC248AB67100CC8CBD /* mostLikely.csv in Resources */ = {isa = PBXBuildFile; fileRef = E95205AB248AB67100CC8CBD /* mostLikely.csv */; };
+		E95205B0248BBD3700CC8CBD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95205AF248BBD3700CC8CBD /* HomeViewController.swift */; };
+		E9548465248BF30F0051A20F /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9548464248BF30F0051A20F /* TitanOne-Regular.ttf */; };
+		E9773CE32497DA0B00552F64 /* nhie.csv in Resources */ = {isa = PBXBuildFile; fileRef = E9773CE22497DA0B00552F64 /* nhie.csv */; };
+		E9773CE82497F0DD00552F64 /* categoriesActors.csv in Resources */ = {isa = PBXBuildFile; fileRef = E9773CE62497F0DD00552F64 /* categoriesActors.csv */; };
+		E9773CE92497F0DD00552F64 /* categoriesTVFilm.csv in Resources */ = {isa = PBXBuildFile; fileRef = E9773CE72497F0DD00552F64 /* categoriesTVFilm.csv */; };
+		E9F206D12485BACE007F8D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F206D02485BACE007F8D5A /* AppDelegate.swift */; };
+		E9F206D32485BACE007F8D5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F206D22485BACE007F8D5A /* SceneDelegate.swift */; };
+		E9F206D52485BACE007F8D5A /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F206D42485BACE007F8D5A /* CardViewController.swift */; };
+		E9F206D82485BACE007F8D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F206D62485BACE007F8D5A /* Main.storyboard */; };
+		E9F206DA2485BAD1007F8D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F206D92485BAD1007F8D5A /* Assets.xcassets */; };
+		E9F206DD2485BAD1007F8D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F206DB2485BAD1007F8D5A /* LaunchScreen.storyboard */; };
+		E9F206E82485BB54007F8D5A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F206E72485BB54007F8D5A /* UIViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2817023E75C70237F3064845 /* Pods-Card Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Master.release.xcconfig"; path = "Target Support Files/Pods-Card Master/Pods-Card Master.release.xcconfig"; sourceTree = "<group>"; };
+		3460DFA6624F68D30FA9B32B /* Pods-Tipsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy.release.xcconfig"; path = "Target Support Files/Pods-Tipsy/Pods-Tipsy.release.xcconfig"; sourceTree = "<group>"; };
+		9A3307DF3EA8DFE5A0BED765 /* Pods-Card Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Master.debug.xcconfig"; path = "Target Support Files/Pods-Card Master/Pods-Card Master.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C9F0617F6334A8FE68F2E3 /* Pods-Tipsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy.debug.xcconfig"; path = "Target Support Files/Pods-Tipsy/Pods-Tipsy.debug.xcconfig"; sourceTree = "<group>"; };
+		E9031F8C24A08247009713CE /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E9031F8E24A139CD009713CE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E911884C2492724E0040C58B /* PlayerInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInputView.swift; sourceTree = "<group>"; };
+		E91188522492E8680040C58B /* CardHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHelpView.swift; sourceTree = "<group>"; };
+		E9425D7624A3112900C7BAAF /* trivia.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trivia.csv; sourceTree = "<group>"; };
+		E9425D7824A3836400C7BAAF /* categoriesMusic.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = categoriesMusic.csv; sourceTree = "<group>"; };
+		E9425D7A24A4EF8000C7BAAF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E95205A0248704C600CC8CBD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E95205A9248AB54100CC8CBD /* CardCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCreator.swift; sourceTree = "<group>"; };
+		E95205AB248AB67100CC8CBD /* mostLikely.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mostLikely.csv; sourceTree = "<group>"; };
+		E95205AF248BBD3700CC8CBD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E9548464248BF30F0051A20F /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
+		E9773CE22497DA0B00552F64 /* nhie.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nhie.csv; sourceTree = "<group>"; };
+		E9773CE62497F0DD00552F64 /* categoriesActors.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = categoriesActors.csv; sourceTree = "<group>"; };
+		E9773CE72497F0DD00552F64 /* categoriesTVFilm.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = categoriesTVFilm.csv; sourceTree = "<group>"; };
+		E9F206CD2485BACE007F8D5A /* Card Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F206D02485BACE007F8D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9F206D22485BACE007F8D5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9F206D42485BACE007F8D5A /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		E9F206D72485BACE007F8D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F206D92485BAD1007F8D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F206DC2485BAD1007F8D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F206DE2485BAD1007F8D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F206E72485BB54007F8D5A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FB12D2DDBC10EE8A0DA6527D /* Pods_Card_Master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F206CA2485BACE007F8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9031F8F24A139CE009713CE /* StoreKit.framework in Frameworks */,
+				51A000284C9010105F692086 /* Pods_Card_Master.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D28C6824C8FB6A74A36284D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9031F8E24A139CD009713CE /* StoreKit.framework */,
+				FB12D2DDBC10EE8A0DA6527D /* Pods_Card_Master.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AE90AC46DD49085ABF4C26F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4C9F0617F6334A8FE68F2E3 /* Pods-Tipsy.debug.xcconfig */,
+				3460DFA6624F68D30FA9B32B /* Pods-Tipsy.release.xcconfig */,
+				9A3307DF3EA8DFE5A0BED765 /* Pods-Card Master.debug.xcconfig */,
+				2817023E75C70237F3064845 /* Pods-Card Master.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E952059F248704B000CC8CBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E911884C2492724E0040C58B /* PlayerInputView.swift */,
+				E95205A0248704C600CC8CBD /* CardView.swift */,
+				E91188522492E8680040C58B /* CardHelpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E95205A8248AB4B500CC8CBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E95205A9248AB54100CC8CBD /* CardCreator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9548461248BF2DA0051A20F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9548463248BF2F10051A20F /* Cards */,
+				E9548462248BF2EA0051A20F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9548462248BF2EA0051A20F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E9548464248BF30F0051A20F /* TitanOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E9548463248BF2F10051A20F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				E9425D7624A3112900C7BAAF /* trivia.csv */,
+				E9773CE62497F0DD00552F64 /* categoriesActors.csv */,
+				E9425D7824A3836400C7BAAF /* categoriesMusic.csv */,
+				E9773CE72497F0DD00552F64 /* categoriesTVFilm.csv */,
+				E9773CE22497DA0B00552F64 /* nhie.csv */,
+				E95205AB248AB67100CC8CBD /* mostLikely.csv */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		E9F206C42485BACE007F8D5A = {
+			isa = PBXGroup;
+			children = (
+				E9F206CF2485BACE007F8D5A /* Card Master */,
+				E9F206CE2485BACE007F8D5A /* Products */,
+				8AE90AC46DD49085ABF4C26F /* Pods */,
+				6D28C6824C8FB6A74A36284D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F206CE2485BACE007F8D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F206CD2485BACE007F8D5A /* Card Master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F206CF2485BACE007F8D5A /* Card Master */ = {
+			isa = PBXGroup;
+			children = (
+				E9548461248BF2DA0051A20F /* Resources */,
+				E95205A8248AB4B500CC8CBD /* Models */,
+				E952059F248704B000CC8CBD /* Views */,
+				E9F206E42485BAFD007F8D5A /* Extensions */,
+				E9F206E92486CF41007F8D5A /* Controllers */,
+				E9F206D02485BACE007F8D5A /* AppDelegate.swift */,
+				E9F206D22485BACE007F8D5A /* SceneDelegate.swift */,
+				E9F206D62485BACE007F8D5A /* Main.storyboard */,
+				E9F206DB2485BAD1007F8D5A /* LaunchScreen.storyboard */,
+				E9F206D92485BAD1007F8D5A /* Assets.xcassets */,
+				E9F206DE2485BAD1007F8D5A /* Info.plist */,
+			);
+			path = "Card Master";
+			sourceTree = "<group>";
+		};
+		E9F206E42485BAFD007F8D5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9F206E72485BB54007F8D5A /* UIViewExtension.swift */,
+				E9425D7A24A4EF8000C7BAAF /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9F206E92486CF41007F8D5A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E95205AF248BBD3700CC8CBD /* HomeViewController.swift */,
+				E9F206D42485BACE007F8D5A /* CardViewController.swift */,
+				E9031F8C24A08247009713CE /* AboutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F206CC2485BACE007F8D5A /* Card Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F206E12485BAD1007F8D5A /* Build configuration list for PBXNativeTarget "Card Master" */;
+			buildPhases = (
+				F69627DFBB7CFB2DB63CF09A /* [CP] Check Pods Manifest.lock */,
+				E9F206C92485BACE007F8D5A /* Sources */,
+				E9F206CA2485BACE007F8D5A /* Frameworks */,
+				E9F206CB2485BACE007F8D5A /* Resources */,
+				15FA5CE849BA40D3619871C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Master";
+			productName = Tipsy;
+			productReference = E9F206CD2485BACE007F8D5A /* Card Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F206C52485BACE007F8D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Thomas Davey";
+				TargetAttributes = {
+					E9F206CC2485BACE007F8D5A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E9F206C82485BACE007F8D5A /* Build configuration list for PBXProject "Card Master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F206C42485BACE007F8D5A;
+			productRefGroup = E9F206CE2485BACE007F8D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F206CC2485BACE007F8D5A /* Card Master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F206CB2485BACE007F8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F206DD2485BAD1007F8D5A /* LaunchScreen.storyboard in Resources */,
+				E9548465248BF30F0051A20F /* TitanOne-Regular.ttf in Resources */,
+				E9F206DA2485BAD1007F8D5A /* Assets.xcassets in Resources */,
+				E95205AC248AB67100CC8CBD /* mostLikely.csv in Resources */,
+				E9F206D82485BACE007F8D5A /* Main.storyboard in Resources */,
+				E9425D7724A3112900C7BAAF /* trivia.csv in Resources */,
+				E9425D7924A3836500C7BAAF /* categoriesMusic.csv in Resources */,
+				E9773CE32497DA0B00552F64 /* nhie.csv in Resources */,
+				E9773CE92497F0DD00552F64 /* categoriesTVFilm.csv in Resources */,
+				E9773CE82497F0DD00552F64 /* categoriesActors.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15FA5CE849BA40D3619871C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Card Master/Pods-Card Master-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Card Master/Pods-Card Master-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Card Master/Pods-Card Master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69627DFBB7CFB2DB63CF09A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Card Master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F206C92485BACE007F8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F206D52485BACE007F8D5A /* CardViewController.swift in Sources */,
+				E911884D2492724E0040C58B /* PlayerInputView.swift in Sources */,
+				E9F206D12485BACE007F8D5A /* AppDelegate.swift in Sources */,
+				E95205AA248AB54100CC8CBD /* CardCreator.swift in Sources */,
+				E9F206E82485BB54007F8D5A /* UIViewExtension.swift in Sources */,
+				E9F206D32485BACE007F8D5A /* SceneDelegate.swift in Sources */,
+				E91188532492E8680040C58B /* CardHelpView.swift in Sources */,
+				E95205B0248BBD3700CC8CBD /* HomeViewController.swift in Sources */,
+				E9031F8D24A08247009713CE /* AboutViewController.swift in Sources */,
+				E9425D7B24A4EF8000C7BAAF /* StringExtension.swift in Sources */,
+				E95205A1248704C600CC8CBD /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9F206D62485BACE007F8D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F206D72485BACE007F8D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F206DB2485BAD1007F8D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F206DC2485BAD1007F8D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F206DF2485BAD1007F8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F206E02485BAD1007F8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F206E22485BAD1007F8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3307DF3EA8DFE5A0BED765 /* Pods-Card Master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 25SQYQ33LY;
+				INFOPLIST_FILE = "$(SRCROOT)/Card Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.Tipsy;
+				PRODUCT_NAME = "Card Master";
+				PROVISIONING_PROFILE_SPECIFIER = "Card Master App Store";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9F206E32485BAD1007F8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2817023E75C70237F3064845 /* Pods-Card Master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 25SQYQ33LY;
+				INFOPLIST_FILE = "$(SRCROOT)/Card Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.Tipsy;
+				PRODUCT_NAME = "Card Master";
+				PROVISIONING_PROFILE_SPECIFIER = "Card Master App Store";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F206C82485BACE007F8D5A /* Build configuration list for PBXProject "Card Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F206DF2485BAD1007F8D5A /* Debug */,
+				E9F206E02485BAD1007F8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F206E12485BAD1007F8D5A /* Build configuration list for PBXNativeTarget "Card Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F206E22485BAD1007F8D5A /* Debug */,
+				E9F206E32485BAD1007F8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F206C52485BACE007F8D5A /* Project object */;
+}
