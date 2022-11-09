@@ -90,13 +90,13 @@ class AboutViewController: UIViewController, SKPaymentTransactionObserver, SKPro
         button.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
         button.layer.cornerRadius = 16
         button.heightAnchor.constraint(equalToConstant: 65).isActive = true
-        button.addTarget(self, action: #selector(handlePurchaseTapped), for: .touchUpInside)
+//        button.addTarget(self, action: #selector(handlePurchaseTapped), for: .touchUpInside)
         return button
     }()
     
     let restoreButton: UIButton = {
         let button = UIButton()
-        button.addTarget(self, action: #selector(handleRestorePurchasesTapped), for: .touchUpInside)
+//        button.addTarget(self, action: #selector(handleRestorePurchasesTapped), for: .touchUpInside)
         button.setTitle("Restore Purchases", for: .normal)
         button.titleLabel?.font = UIFont(name: "TitanOne", size: 22)
         button.backgroundColor = #colorLiteral(red: 0.9843137255, green: 0.5215686275, blue: 0.2196078431, alpha: 1)
@@ -148,9 +148,13 @@ class AboutViewController: UIViewController, SKPaymentTransactionObserver, SKPro
         buttonStack.addArrangedSubview(restoreButton)
         
         
-        SKPaymentQueue.default().add(self)
-        getPurchaseInfo()
-        buttonEnabled = false
+//        SKPaymentQueue.default().add(self)
+//        getPurchaseInfo()
+//        buttonEnabled = false
+        purchaseButton.isEnabled = false
+        restoreButton.isEnabled = false
+        purchaseButton.alpha = 0.6
+        restoreButton.alpha = 0.6
     }
     
 //    override func viewDidAppear(_ animated: Bool) {

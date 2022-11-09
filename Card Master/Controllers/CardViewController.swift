@@ -249,7 +249,9 @@ class CardViewController: UIViewController, GADInterstitialDelegate, SKPaymentTr
             _purchaseButton!.layer.cornerRadius = 18
             _purchaseButton!.heightAnchor.constraint(equalToConstant: 65).isActive = true
             _purchaseButton!.transform = CGAffineTransform(scaleX: 0, y: 0)
-            _purchaseButton!.addTarget(self, action: #selector(handlePurchaseTapped), for: .touchUpInside)
+//            _purchaseButton!.addTarget(self, action: #selector(handlePurchaseTapped), for: .touchUpInside)
+            _purchaseButton!.alpha = 0.6
+            _purchaseButton!.isEnabled = false
         }
         return _purchaseButton!
     }
@@ -259,7 +261,7 @@ class CardViewController: UIViewController, GADInterstitialDelegate, SKPaymentTr
     func prepareFinish() {
         if interstitial != nil && interstitial.isReady {
             gameOver = true
-            interstitial.present(fromRootViewController: self)
+//            interstitial.present(fromRootViewController: self)
         } else {
             addFinish()
         }
